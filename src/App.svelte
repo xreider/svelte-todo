@@ -82,7 +82,7 @@
 					class="todo-item-container"
 					in:receive="{{ key: id }}"
 					out:send="{{ key: id }}"
-					animate:flip="{{ deration: 250 }}"
+					animate:flip="{{ duration: 250 }}"
 				>
 					<TodoItem
 						title={`${index + 1}: ${text}`}
@@ -101,7 +101,7 @@
 					class="todo-item-container"
 					in:receive="{{ key: id }}"
 					out:send="{{ key: id }}"
-					animate:flip="{{ deration: 250 }}"
+					animate:flip="{{ duration: 250 }}"
 				>
 					<TodoItem
 						title={`${index + 1}: ${text}`}
